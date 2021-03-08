@@ -7,8 +7,7 @@
     tools:context=".MainActivity"
     android:gravity="center_horizontal"
     android:fitsSystemWindows="false"
-    android:background="@drawable/b2"
-    android:alpha="0.85"
+    android:background="@drawable/mm"
     android:orientation="vertical">
 
     <TextView
@@ -17,7 +16,7 @@
         android:layout_marginTop="130dp"
         android:fontFamily="monospace"
         android:gravity="center"
-        android:text="JetCab"
+        android:text="TaxiMotor"
         android:textSize="58sp"
         android:textColor="@color/quantum_white_100"
         android:textStyle="bold" />
@@ -51,7 +50,7 @@
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="50dp"
-        android:background="@drawable/bg"
+        android:background="@color/colorPrimary"
         android:text="LOGIN"
         android:textSize="15sp"
         android:alpha="0.9" />
@@ -78,5 +77,12 @@
             android:textColor="#9acd32"/>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_terms_and_privacy"
+        android:text="@string/str_terms_and_privacy"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"/>
 
 </LinearLayout>

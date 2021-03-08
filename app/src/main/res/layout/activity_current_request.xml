@@ -33,11 +33,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cancel"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:id="@+id/cancel"
                 android:layout_marginLeft="175dp"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"/>
+                android:textColor="#FF0600"/>
 
 
         </androidx.appcompat.widget.Toolbar>
@@ -65,6 +65,7 @@
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_weight="8"
+            android:textColor="#43A047"
             android:layout_marginTop="12dp"
             android:text="xxxxxxxxxx"
             android:textSize="18dp"/>
@@ -98,6 +99,6 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.tutorialspoint7.myapplication.MapsActivity" />
+        tools:context="com.tegapp.tutorialspoint7.myapplication.MapsActivity" />
 
 </LinearLayout>

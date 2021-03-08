@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:gravity="center_horizontal"
-    android:background="@drawable/b2"
-    android:alpha="0.85"
+    android:background="@drawable/mmmm"
     android:orientation="vertical">
 
     <EditText
@@ -57,6 +56,30 @@
         android:drawableLeft="@drawable/ic_phone_black_24dp"
         android:paddingLeft="10dp"
         android:hint="  PHONE NUMBER" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/accepttandc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree with the Terms and Conditions"
+            android:paddingEnd="1dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp"
+            android:layout_marginTop="15sp"
+            android:clickable="true"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -69,18 +92,18 @@
             android:layout_width="150dp"
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/quantum_white_100"
-            android:textColor="@color/quantum_white_100"
-            android:text="RIDER"/>
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/ic_launcher_background"
+            android:text="UMUGENZI"/>
 
         <RadioButton
             android:id="@+id/signup_driver"
             android:layout_width="150dp"
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/quantum_white_100"
+            android:buttonTint="@color/colorAccent"
             android:textColor="@color/quantum_white_100"
-            android:text="DRIVER"/>
+            android:text="MOTARI"/>
 
     </RadioGroup>
 
@@ -89,7 +112,7 @@
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/bg"
+        android:background="@color/colorAccent"
         android:textSize="15sp"
         android:alpha="0.9"
         android:text="SIGN UP"/>

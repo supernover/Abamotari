@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "354357146229",
-    "firebase_url": "https://jetcab-50df7.firebaseio.com",
-    "project_id": "jetcab-50df7",
-    "storage_bucket": "jetcab-50df7.appspot.com"
+    "project_number": "548751493460",
+    "firebase_url": "https://motari-305614-default-rtdb.firebaseio.com",
+    "project_id": "motari-305614",
+    "storage_bucket": "motari-305614.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:354357146229:android:95fb52bb0d329a63cf3e3c",
+        "mobilesdk_app_id": "1:548751493460:android:6c3fcdb20aa7946161e0c1",
         "android_client_info": {
-          "package_name": "com.example.jetcab"
+          "package_name": "com.tegapp.motari"
         }
       },
       "oauth_client": [
         {
-          "client_id": "354357146229-md0739g3av61cabtgdt94kqg62hb8kjo.apps.googleusercontent.com",
+          "client_id": "548751493460-shpif23i651cafctkl3vub4jpa80kavn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAT5BUbo7HY3ugXvt_BRXBJJDbLwC4DXpA"
+          "current_key": "AIzaSyBwKXHj2MZJG7Gsz0jTTSzTBACiYvCiVm0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "354357146229-md0739g3av61cabtgdt94kqg62hb8kjo.apps.googleusercontent.com",
+              "client_id": "548751493460-shpif23i651cafctkl3vub4jpa80kavn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

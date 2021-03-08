@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jetcab">
+    package="com.tegapp.motari">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -23,15 +23,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_driver_past_request"></activity>
-        <activity android:name=".Activity_QRcode" />
-        <activity android:name=".Activity_scanCode" />
-        <activity android:name=".Activity_Scanner" />
+        <activity android:name="com.tegapp.motari.activity_driver_past_request"></activity>
+        <activity android:name="com.tegapp.motari.Activity_QRcode" />
+        <activity android:name="com.tegapp.motari.Activity_scanCode" />
+        <activity android:name="com.tegapp.motari.Activity_Scanner" />
         <activity
-            android:name=".AcceptRequest"
+            android:name="com.tegapp.motari.AcceptRequest"
             android:theme="@style/ShowStatusBar" />
         <activity
-            android:name=".Driver_Search_Request"
+            android:name="com.tegapp.motari.Driver_Search_Request"
             android:theme="@style/ShowStatusBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -43,25 +43,25 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAG_GSGfJXx9mga7K5RCTRxZ8Unny0MGFA" />
+            android:value="AIzaSyAi2HCUbkEb3CMKN3ndwnkFWGZJ11gWXWU" />
 
         <activity
-            android:name=".CurrentRequest"
+            android:name="com.tegapp.motari.CurrentRequest"
             android:label="@string/title_activity_current_request" />
         <activity
-            android:name=".Activity_Profile"
+            android:name="com.tegapp.motari.Activity_Profile"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity_MainMenuD"
+            android:name="com.tegapp.motari.Activity_MainMenuD"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity_MainMenuR"
+            android:name="com.tegapp.motari.Activity_MainMenuR"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity_Signup"
+            android:name="com.tegapp.motari.Activity_Signup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity_SplashScreen"
+            android:name="com.tegapp.motari.Activity_SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,18 +70,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity_PostRequest"
+            android:name="com.tegapp.motari.Activity_PostRequest"
             android:label="@string/app_name"
             android:theme="@style/ShowStatusBar"></activity>
         <activity
-            android:name=".Activity_RiderMapDisplay"
+            android:name="com.tegapp.motari.Activity_RiderMapDisplay"
             android:theme="@style/ShowStatusBar" />
         <activity
-            android:name=".Activity_DriverCurrentRequest"
+            android:name="com.tegapp.motari.Activity_DriverCurrentRequest"
             android:theme="@style/ShowStatusBar" />
-        <activity android:name=".Activity_DriverMapDisplay" />
+        <activity android:name="com.tegapp.motari.Activity_DriverMapDisplay" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.tegapp.motari.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

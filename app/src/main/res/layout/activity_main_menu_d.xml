@@ -11,13 +11,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.44"
         android:background="@drawable/rounded_bg2">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/welcome_d"/>
+            android:src="@drawable/mmmmm" />
 
     </LinearLayout>
 
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
-        android:text="Welcome to JetCab Driver"
+        android:text="Welcome to Tegapp Driver"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:textSize="30dp"/>

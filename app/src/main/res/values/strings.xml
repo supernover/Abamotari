@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">JetCab</string>
+    <string name="app_name">TegaMotari</string>
     <string name="title_activity_current_request">Current Request</string>
     <string name="status">Status</string>
     <string name="cancel">Cancel</string>
@@ -7,4 +7,8 @@
     <string name="start_location">Start Location</string>
     <string name="end_location">End Location</string>
     <string name="textview">TextView</string>
+
+
+    <string name="str_terms_and_privacy">By signing in you agree to our <a href="terms:">Terms of Service</a> and <a href="privacy:">Privacy Policy.</a></string>
+
 </resources>

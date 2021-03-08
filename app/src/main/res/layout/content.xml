@@ -17,7 +17,7 @@
             android:id="@+id/Requestno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="@android:color/white"/>
 

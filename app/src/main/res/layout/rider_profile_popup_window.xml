@@ -80,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:autoLink="phone"
                 android:text="000-000-0000"
                 android:textColor="@android:color/holo_blue_light"
                 android:textSize="18dp" />
@@ -87,6 +88,7 @@
             <TextView
                 android:id="@+id/rider_email_text"
                 android:layout_width="wrap_content"
+                android:autoLink="email"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:text="xxxxxxxxxxxxxx@xxx.xxx"
